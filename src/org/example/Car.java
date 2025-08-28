@@ -8,9 +8,6 @@ public class Car {
     private boolean setBelt;
     private boolean airbag;
 
-    public Car() {
-    }
-
     public Car(int numberOfTire, int numberOfDoors, boolean setBelt, boolean airbag) {
         this.numberOfTire = numberOfTire;
         this.numberOfDoors = numberOfDoors;
